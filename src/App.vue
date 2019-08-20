@@ -18,10 +18,13 @@ export default {
   data: function () {
     return {
       branchData: [
-        {          description: '1', children:
+        {
+          description: '1',
+          children:
             [{
               description: '1.1', children: [],
-              description: '1.2', children: [
+              description: '1.2',
+              children: [
                 {
                   description: '1.2.1', children: [],
                   description: '1.2.2', children: [],
